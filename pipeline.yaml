@@ -14,7 +14,7 @@ spec:
           workspace: myworkspace
       params:
         - name: url
-          value: Dockerfile
+          value: https://github.com/akshutp/Tekton-buildah.git
         - name: deleteExisting
           value: "true"
     - name: build
